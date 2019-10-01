@@ -10,7 +10,7 @@ int     main(void)
         int i;
 
         i = 0;
-        printf("%sChoice %s1%s: %s", BIG_BLUE, BIG_RED, DEF, DEF);
+        printf("%sChoice %s1%s:", BIG_BLUE, BIG_RED, DEF);
         fgets(str1, 20, stdin);
         i++;
         if (strlen(str1) == 1)
@@ -21,7 +21,7 @@ int     main(void)
             return (0);
         }
 
-        printf("%sChoice %s2%s: %s", BIG_BLUE, BIG_RED, DEF, DEF);
+        printf("%sChoice %s2%s:", BIG_BLUE, BIG_RED, DEF);
         fgets(str2, 20, stdin);
         i++;
         if (strlen(str2) == 1)
