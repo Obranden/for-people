@@ -4,7 +4,7 @@ int     main(void)
 {
     printf("%sENTER to continue%s", BLK_RED, DEF);
     int c;
-    if ((c = getchar()) == '\n'){
+    if ((c = getchar()) == ENTER){
         char str1[20];
         char str2[20];
         int i;
@@ -16,7 +16,7 @@ int     main(void)
         if (strlen(str1) == 1)
         {
             printf("%sEmpty string %s1%s\n",BIG_GREEN, BIG_RED, DEF);
-            c = '\n';
+            c = ENTER;
             main();
             return (0);
         }
@@ -27,7 +27,7 @@ int     main(void)
         if (strlen(str2) == 1)
         {
             printf("%sEmpty string %s2%s\n", BIG_GREEN, BIG_RED, DEF);
-            c = '\n';
+            c = ENTER;
             main();
             return (0);
         }

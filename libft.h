@@ -15,7 +15,7 @@
 # define BIG_BLUE "\x1b[1;34m"
 # define BIG_PUR "\x1b[1;35m"
 # define DEF "\x1b[0m"
-# define ENTER 13
+# define ENTER '\n'
 
 void    rand_choice(int c);
 
