@@ -15,7 +15,7 @@ int     main(void)
         i++;
         if (strlen(str1) == 1)
         {
-            printf("%sEmpty string%s\n",BIG_GREEN, DEF);
+            printf("%sEmpty string %s1%s\n",BIG_GREEN, BIG_RED, DEF);
             c = '\n';
             main();
             return (0);
@@ -26,7 +26,7 @@ int     main(void)
         i++;
         if (strlen(str2) == 1)
         {
-            printf("%sEmpty string%s\n", BIG_GREEN, DEF);
+            printf("%sEmpty string %s2%s\n", BIG_GREEN, BIG_RED, DEF);
             c = '\n';
             main();
             return (0);
